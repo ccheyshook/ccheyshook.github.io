@@ -5,21 +5,49 @@
 /* Color Palette */
 
 .color-1 {
-    background: red;
+    background: #CDD3CA;
 }
 
 .color-2 {
-    background: white;
+    background: #9EBBE8;
 }
 .color-3 {
-    background: blue;
+    background: #BDC1C6;
+}
+
+.color-4 {
+    background: #FAABAE;
+}
+
+.color-5 {
+    background: #E0D8CA;
 }
 
 /* Textures or Patterns*/
 
 .pattern-1 {
     
-    background: url(../img/flag.gif)
+    background: url(../img/Floral.jpg)
+}
+
+.pattern-2 {
+    
+    background: url(../img/Chevron.png)
+}
+
+.pattern-3 {
+    
+    background: url(../img/Greenish.jpg)
+}
+
+.pattern-4 {
+    
+    background: url(../img/Marble.jpg)
+}
+
+.pattern-5 {
+    
+    background: url(../img/Cream.jpg)
 }
 
 /* Imagery */
