@@ -1,0 +1,110 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+/* Color Palette */
+
+.color-1 {
+    background: #CDD3CA;
+}
+
+.color-2 {
+    background: #9EBBE8;
+}
+.color-3 {
+    background: #BDC1C6;
+}
+
+.color-4 {
+    background: #FAABAE;
+}
+
+.color-5 {
+    background: #E0D8CA;
+}
+
+/* Textures or Patterns*/
+
+.pattern-1 {
+    
+    background: url(../img/Floral.jpg)
+}
+
+.pattern-2 {
+    
+    background: url(../img/Chevron.png)
+}
+
+.pattern-3 {
+    
+    background: url(../img/Greenish.jpg)
+}
+
+.pattern-4 {
+    
+    background: url(../img/Cream.jpg)
+}
+
+.pattern-5 {
+    
+    background: url(../img/Marble.jpg)
+}
+
+/* Imagery */
+
+
+/* Icons */
+
+.icon-1 {
+    background: url(../img/Diving.png);
+}
+
+.icon-2 {
+    background: url(../img/Lemon.png);
+}
+
+.icon-3 {
+    background: url(../img/Book.png);
+}
+
+.icon-4 {
+    background: url(../img/Mermaid%20Tail.png);
+}
+
+.icon-5 {
+    background: url(../img/Lipstick.png);
+}
+
+/* Navigation */
+
+a:link,
+a:visited{
+    color: #FAABAE;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #BDC1C6;
+    margin-left: 0;
+}
+
+a:active{
+    color: #BDC1C6;
+    background: none;
+}
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+p{
+    
+font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+h3{
+    color: #9EBBE8;
+    font-family: 'Poiret One', cursive;
+    border: none;
+}
