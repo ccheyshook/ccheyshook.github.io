@@ -9,7 +9,7 @@
 }
 
 .color-2 {
-    background: #9EBBE8;
+    background: #FFCC99;
 }
 .color-3 {
     background: #BDC1C6;
@@ -55,32 +55,12 @@
 
 /* Icons */
 
-.icon-1 {
-    background: url(../img/Diving.png);
-}
-
-.icon-2 {
-    background: url(../img/Lemon.png);
-}
-
-.icon-3 {
-    background: url(../img/Book.png);
-}
-
-.icon-4 {
-    background: url(../img/Mermaid%20Tail.png);
-}
-
-.icon-5 {
-    background: url(../img/Lipstick.png);
-}
 
 /* Navigation */
 
 a:link,
 a:visited{
     color: #FAABAE;
-    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -90,21 +70,37 @@ a:hover{
 }
 
 a:active{
-    color: #BDC1C6;
+    color: #FFCC99;
     background: none;
 }
 
+button {
+    background: #BDC1C6;
+    border: none; 
+}
+
 /* Typography */
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 
 p{
-    
 font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #BDC1C6;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
 }
 
 h3{
-    color: #9EBBE8;
-    font-family: 'Poiret One', cursive;
+    color: #CDD3CA;
+    font-family: 'Raleway', sans-serif;
     border: none;
+    text-transform: uppercase;
 }
