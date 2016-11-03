@@ -17,11 +17,14 @@ h1 {
   font-weight: bold;
   color: black;
   text-align: center;
-  font-size: 5em;
+  font-size: 4em;
   }
 
-h2{
-    padding-left: 100px;
+head {
+  padding-left: 100px;
+  width: 300px;
+  margin: 0 auto;
+  height: 150px;
 }
 
 body {
@@ -32,21 +35,16 @@ p {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
-
-.background,
-.objective {
-    background: none;
-    padding-left: 75px;
-    margin: 50px;
-    max-width: 700px;
- 
+article section {
+  width: 800px;
 }
 
 img {
     
     text-overflow: inherit;
-    height: 525px;
-    width: 350px;
+    padding: 0 35px;
+    height: 450px;
+    width: 275px;
     margin: 0 30px 10px 0;
     float: left;
 }
@@ -67,7 +65,7 @@ For signature font-family: 'Dancing Script', cursive; */
 
 a:link,
 a:visited{
-    color: #FAABAE;
+    color: steelblue;
     text-decoration: none;
 }
 a:hover{
@@ -75,7 +73,7 @@ a:hover{
     margin-left: 0;
 }
 a:active{
-    color: #FFCC99;
+    color: steelblue;
     background: none;
 }
 
