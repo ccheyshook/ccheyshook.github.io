@@ -1,91 +1,130 @@
-/* HEAD AND BODY */
+/*Navigation*/
+
+html { background: #000;
+}
+
+section {  display: block;
+  width: 62.5em;
+  height: 62em;
+  background: #ffffff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+nav h1 { font-size: 4em;
+    width: 100%;
+    margin: 0 -15px;
+}
 
 nav {
-    margin-bottom: 60px;
-    font-family: 'PT Sans Narrow';
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1.5em;
-    background: url(../style-tile/img/Marble.jpg)
+    display: inline-block; 
+    text-align: right;
+    font-size: 1.25em;
     width: 100%;
-     top: 0;
-    z-index: -1;
+    padding: inherit;
+}
+
+/*Navigation END*/
+
+#content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+#container ul {
+    list-style: none;
+}
+
+.row {
+  margin: 10px 0;
+}
+
+.col {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Flexbox Styling */
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.col {
+  flex: 1 200px;
     
 }
 
-nav h1 {
-    background: url(../style-tile/img/Marble.jpg);
-    color: white;
-    font-size: 4em;
-    text-transform: none;
-    width: 100%;
+/*Head and Body*/
+    
 }
-
-/* Navigation End */
-
 h1 {
-  margin: 0px;
-  font-family: 'PT Sans Narrow';
   font-weight: bold;
-  text-align: center;
   font-size: 4em;
   }
 
-head {
-  padding-left: 6.25em;
-  width: 18.75em;
-  margin: 0 auto;
-  height: 9.375em;
-}
 
-body {
-  background: white;
-}
-
-p {
-    font-family: 'Abril Fatface';
-    font-size: 1em;
-}
-
-h2 {
-    color: pink;
-    font-family:'PT Sans Narrow', sans-serif;
-}
-
-article section{
-  float: left;
-  margin: 0%;
-  width: 80%; 
-}
-
-
+/*Self Image*/
 img {
-    
-    text-overflow: inherit;
-    padding: 0 1em;
-    height: 450px;
-    width: 275px;
+    display: flex;
+    height: 500px;
+    width: 320px;
     margin: 0 30px 10px 0;
     float: left;
 }
 
-
-.container h2 {
-  margin: 0 2%;
-  width: 90%;
-  max-width: 90%;
+/* Contact Page */
+form{
+  padding: 1em;
 }
 
-article {
-  float: left;
-  margin: .1%; /* 10px / 600px  = 1.6666667% */
-  width: 56%; /* 560px / 1000px  = 56% */ 
+label,
+input,
+textarea {
+  display: block;
+  margin: 10px;
 }
 
-aside {
-  float: left;
-  margin: .025%; /* 10px / 400px  = 2.5% */
-  width: 35%; /* 360px / 1000px  = 36% */ 
+/* SCORE: 0,0,1,1 */
+input[type=submit] {
+  background: lightgrey
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+input:focus,
+textarea:focus{
+  background: lightgrey;
+  transition: background .25s;
+/*   outline: none; */
+}
+
+
+
+
+/*LINKS*/
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #E499B7;
+}
+a:hover{color: #BDC1C6;
+    margin-left: 0;
+}
+a:active{color: #E499B7;
+    background: none;
 }
 
 
@@ -131,33 +170,6 @@ aside {
 }
 
 
-/* FONTS 
-
-For signature font-family: 'Dancing Script', cursive; */
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton');
+/*FONTS*/
 
 
-/* LINKS */
-
-
-a:link,
-a:visited{
-    color: steelblue;
-    text-decoration: none;
-}
-a:hover{
-    color: #BDC1C6;
-    margin-left: 0;
-}
-a:active{
-    color: steelblue;
-    background: none;
-}
-
-button {
-    background: #BDC1C6;
-    border: none; 
-}

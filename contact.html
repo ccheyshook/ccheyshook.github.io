@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/">
     <link rel="stylesheet" href="/:css/styles.css" /> 
 </head>
+<section id="contact">
 <body>
-      <h1>Contact</h1>
-       <div class="nav">   
+     <nav>
+        <h1>Contact</h1>
         <a href="about.html" id="navhome">Home</a> |
         <a href="about.html" id="navbio">Bio</a> |
         <a href="portfolio.html" id="navportfolio">Portfolio</a> |
         <a href="contact.html" id="navcontact">Contact</a>
-   </div>
+   </nav>
+   
+   
+   <form method="POST" action="http://formspree.io/ccheyanneshook@outlook.com">
+  
+  <label for="name">Name</label>
+  <input type="input" name="name"/>
+  
+  <label for="email">Email</label>
+  <input type="input" name="email"/>
+  
+  <label for="message">Message</label>
+  <textarea name="message"></textarea>
+  
+  <input type="submit" value="Thank You!"/>
+  
+</form>
 </body>
+    </section>
 </html>
