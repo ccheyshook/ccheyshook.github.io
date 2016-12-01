@@ -4,15 +4,16 @@ html { background: #000;
 }
 
 section {  display: block;
-  width: 62.5em;
-  height: 62em;
+  width: 75em;
+  height: 75em;
   background: #ffffff;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 42px;
-    padding-right: 42px;
+    margin:auto;
+    padding:0 25px; 
+}
+
+body{
+    background: black;
 }
 
 nav h1 { font-size: 4em;
@@ -45,10 +46,6 @@ nav {
     list-style: none;
 }
 
-.row {
-  margin: 10px 0;
-}
-
 .col {
   margin: 10px;
   padding: 10px;
@@ -56,19 +53,20 @@ nav {
 
 /* Flexbox Styling */
 .row {
+  margin: 10px 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
 
 .col {
+  display: flex;
   flex: 1 200px;
     
 }
 
 /*Head and Body*/
     
-}
 h1 {
   font-weight: bold;
   font-size: 4em;
@@ -123,8 +121,8 @@ a:visited{
 a:hover{color: #BDC1C6;
     margin-left: 0;
 }
-a:active{color: #E499B7;
-    background: none;
+a:active{
+    color: #E499B7;
 }
 
 
@@ -136,7 +134,7 @@ a:active{color: #E499B7;
   
   /* Diagnostic Styling. */
   body {
-       background: white;
+       background: black;
   }
 
 }
