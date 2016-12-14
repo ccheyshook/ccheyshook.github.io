@@ -6,7 +6,7 @@ html { background: #000;
 section {  
     display: block;
   width: 60em;
-  height: 38em;
+  height: 60em;
   background: #ffffff;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
     margin:auto;
@@ -36,6 +36,10 @@ nav {
     display: flex;
     text-align: left;
     flex-direction: column;
+}
+
+article {
+    align-content: center;
 }
 
 .col {
